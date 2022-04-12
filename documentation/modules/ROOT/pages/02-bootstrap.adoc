@@ -514,7 +514,7 @@ Quarkus let's you copy HTML resources to `src/main/resources/META-INF/resources`
 
 We've developed a UI for the TODO application, download the zip file containing the https://github.com/redhat-scholars/kube-native-java-apps/releases/download/TODO-UI/resources.zip[UI] from GitHub.
 
-In a terminal window, go to `src/main/resources/META-INF` directory, copy the `resourcse.zip` file there, and unzip it.
+In a terminal window, go to `src/main/resources/META-INF` directory, copy the `resources.zip` file there, and unzip it.
 
 [.console-input]
 [source, bash]
