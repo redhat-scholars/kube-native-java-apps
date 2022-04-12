@@ -491,7 +491,7 @@ Change the `ActivityService` Java interface in `src/main/java` in the `org.acme`
 [.console-input]
 [source,java]
 ----
-ppackage org.acme;
+package org.acme;
 
 import org.eclipse.microprofile.faulttolerance.*;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
