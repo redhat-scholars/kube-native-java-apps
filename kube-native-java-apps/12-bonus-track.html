@@ -235,7 +235,7 @@
 <div class="sectionbody">
 <div class="paragraph">
 <p>With your Red Hat Developer account you also have access to <a href="http://console.redhat.com/">Red Hat Hybrid Console</a>.
-From there you can access the <a href="https://console.redhat.com/application-services/overview">Application Services</a> and you can create your kafka instance :</p>
+From there, you can access the <a href="https://console.redhat.com/application-services/overview">Application Services</a> and you can create your kafka instance:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -253,7 +253,7 @@ From there you can access the <a href="https://console.redhat.com/application-se
 </div>
 </div>
 <div class="paragraph">
-<p>Now, we can create a topic named <code>todo-count</code> :</p>
+<p>Now, we can create a topic named <code>todo-count</code>:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -271,7 +271,7 @@ From there you can access the <a href="https://console.redhat.com/application-se
 <h2 id="deploy-quarkus-sb"><a class="anchor" href="#deploy-quarkus-sb"></a>Update the Todo app with Kafka and Service Binding</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>We need to add 2 new extensions :</p>
+<p>We need to add 2 new extensions:</p>
 </div>
 <div class="listingblock console-input">
 <div class="content">
@@ -279,7 +279,7 @@ From there you can access the <a href="https://console.redhat.com/application-se
 </div>
 </div>
 <div class="paragraph">
-<p>Update the <code>TodoResource</code> like this :</p>
+<p>Update the <code>TodoResource</code> like this:</p>
 </div>
 <div class="listingblock console-input">
 <div class="content">
@@ -375,7 +375,7 @@ public class TodoResource {
 </div>
 </div>
 <div class="paragraph">
-<p>Rebuild your app, create an image, push it and redeploy it Kubernetes.</p>
+<p>Rebuild your app, create an image, push it and redeploy it to Kubernetes.</p>
 </div>
 </div>
 </div>
@@ -388,7 +388,7 @@ public class TodoResource {
 </div>
 </div>
 <div class="paragraph">
-<p>Now, go back to your hybrid console, select your topic and go to <code>access</code> :</p>
+<p>Now, go back to your hybrid console, select your topic and go to <code>access</code>:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -396,7 +396,7 @@ public class TodoResource {
 </div>
 </div>
 <div class="paragraph">
-<p>And assign those permissions :</p>
+<p>And assign those permissions:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -404,7 +404,7 @@ public class TodoResource {
 </div>
 </div>
 <div class="paragraph">
-<p>Connect your Todo app to the Managed Service Kakfa Component by dragging a line from the todo app to the <code>aks</code> component :</p>
+<p>Connect your Todo app to the Managed Service Kakfa Component by dragging a line from the todo app to the <code>aks</code> component:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -412,10 +412,10 @@ public class TodoResource {
 </div>
 </div>
 <div class="paragraph">
-<p>Now deploy this container image : <code>quay.io/rhdevelopers/todo-count-stream:1.0.0-SNAPSHOT</code></p>
+<p>Now deploy this container image: <code>quay.io/rhdevelopers/todo-count-stream:1.0.0-SNAPSHOT</code></p>
 </div>
 <div class="paragraph">
-<p>Access the route of this new app and add <code>/todo-count</code> to the URL , it will open a page getting stream events.
+<p>Access the route of this new app and add <code>/todo-count</code> to the URL, it will open a page getting stream events.
 To generate an event, just make sure to call the Todo api : <code>/api</code> or refresh the todo.html page.</p>
 </div>
 </div>

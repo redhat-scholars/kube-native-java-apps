@@ -263,7 +263,7 @@ In the terminal window please execute the following command
 We can do that by consuming ideas of activities from an external service.</p>
 </div>
 <div class="paragraph">
-<p>Will start by modifying the <code>Todo.java</code> class to help when reading the data from the external service:</p>
+<p>We will start by modifying the <code>Todo.java</code> class to help when reading the data from the external service:</p>
 </div>
 <div class="listingblock console-input">
 <div class="content">
@@ -296,7 +296,7 @@ public class Todo {
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>Assign to <code>title</code> field the value had by the <code>activity</code> JSON property.</td>
+<td>Assign to the <code>title</code> field the value held by the <code>activity</code> JSON property.</td>
 </tr>
 </table>
 </div>
@@ -330,7 +330,7 @@ public interface ActivityService {
 </div>
 <div class="paragraph">
 <p><code>@RegisterRestClient</code> allows Quarkus to know that this interface is meant to be available for CDI injection as a REST Client.
-To have more flexibility in our configuration, will the rest of the URL in in <code>src/main/resources/application.properties</code>:</p>
+To have more flexibility in our configuration, will the rest of the URL in <code>src/main/resources/application.properties</code>:</p>
 </div>
 <div class="listingblock console-input">
 <div class="content">

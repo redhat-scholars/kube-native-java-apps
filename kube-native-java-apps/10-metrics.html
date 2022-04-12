@@ -245,7 +245,7 @@ Tracing helps you with following the evolution of a transaction and it usually n
 <div class="sectionbody">
 <div class="paragraph">
 <p>As we will need to correlate our metrics and traces, we should make a small setup for Jaeger, OpenTelemetry Collector and Prometheus.
-The OpenTelemetry Collector acts as an proxy for Jaeger and Prometheus.</p>
+The OpenTelemetry Collector acts as a proxy for Jaeger and Prometheus.</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -310,7 +310,7 @@ oc expose svc jaeger --port=16686 --generator="route/v1"</code></pre>
 <div class="sect2">
 <h3 id="_configuration_of_common_tags"><a class="anchor" href="#_configuration_of_common_tags"></a>Configuration of common tags</h3>
 <div class="paragraph">
-<p>When deploying across multiple projects/namespaces is always good to have an unified view over some application metrics.
+<p>When deploying across multiple projects/namespaces is always good to have a unified view over some application metrics.
 Let&#8217;s define several common tags for the application, varying in value at deployment time:</p>
 </div>
 <div class="listingblock console-input">
@@ -343,7 +343,7 @@ global.country=${COUNTRY:'Romania'}</code></pre>
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>Environment configuration will be named <code>REGION</code> and having the default value <code>CEE</code>.</td>
+<td>Environment configuration will be named <code>REGION</code> and has the default value <code>CEE</code>.</td>
 </tr>
 </table>
 </div>
@@ -406,7 +406,7 @@ quarkus.micrometer.binder.jvm=true<i class="conum" data-value="6"></i><b>(6)</b>
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>Inboud HTTP request metrics support.</td>
+<td>Inbound HTTP request metrics support.</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="3"></i><b>3</b></td>
