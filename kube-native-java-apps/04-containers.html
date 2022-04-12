@@ -810,6 +810,18 @@ quarkus.container-image.name=quarkus-app-workshop</code></pre>
 <div class="sect1">
 <h2 id="buildpacks"><a class="anchor" href="#buildpacks"></a>Using Buildpacks</h2>
 <div class="sectionbody">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Before trying this out make sure to remove the <code>io.quarkus:quarkus-container-image-jib</code> extension.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>The extension <code>quarkus-container-image-buildpack</code> is using buildpacks in order to perform container image builds. Under the hood buildpacks will use a Docker daemon for the actual build. While buildpacks support alternatives to Docker, this extension will only work with Docker.</p>
 </div>
