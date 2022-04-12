@@ -12,7 +12,7 @@ The OpenTelemetry Collector acts as a proxy for Jaeger and Prometheus.
 
 IMPORTANT: This setup has development purposes and is due to resource constraints that exist within Red Hat OpenShift Developer Sandbox.
 
-First, open the broswer terminal and type the command:
+First, open the Web Terminal of your Sandbox and type the command:
 [.console-input]
 [source,bash]
 ----
