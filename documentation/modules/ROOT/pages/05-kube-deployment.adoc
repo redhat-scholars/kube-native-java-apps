@@ -196,7 +196,7 @@ NAME                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
 quarkus-app-workshop   ClusterIP   172.30.199.49   <none>        80/TCP    3m23s
 ----
 
-Before showing the second way, undeploy the application:
+Now that we have shown the second way, undeploy the application:
 
 [.console-input]
 [source, bash]
