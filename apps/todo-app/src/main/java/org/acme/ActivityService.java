@@ -10,7 +10,9 @@ import javax.inject.Singleton;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
-
+/*
+* Create quarkus.rest-client."org.acme.service.ActivityService".url=https://www.boredapi.com property in application.properties
+*/
 @RegisterRestClient
 @Path("/api/activity")
 @Singleton
